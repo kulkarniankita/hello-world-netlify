@@ -4,16 +4,13 @@
   "private": true,
   "dependencies": {
     "netlify-lambda": "^1.6.3",
-    "npm-run-all": "^4.1.5",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start:app": "react-scripts start",
-    "build:app": "react-scripts build",
-    "start": "run-p start:**",
-    "build": "run-p build:**",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "netlify-lambda install"
